@@ -1,0 +1,8 @@
+.grid {
+  list-style: none; padding: 0; margin: 0;
+  max-width: 1050px; padding-left: 16px; padding-right: 16px;
+  margin-left: auto; margin-right: auto;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 16px;
+}
+.grid__empty { max-width: 1050px; margin: 0 auto; padding: 0 16px; color: #666; }
+.grid__sentinel { height: 1px; list-style: none; }
